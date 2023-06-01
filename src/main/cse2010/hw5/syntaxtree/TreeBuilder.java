@@ -53,7 +53,7 @@ public class TreeBuilder {
     /**
      * Reset stacks
      */
-    private static void initStacks() {
+    private static void initStacks() { // 오퍼랜드 스택과 오퍼레이터 스택을 비운다.
         operandStack.clear();
         operatorStack.clear();
     }

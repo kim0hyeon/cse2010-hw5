@@ -170,6 +170,7 @@ public class LinkedBinaryTree<T> implements BinaryTree<T> {
      * @param position a node position
      * @return a node representing the {@code position}
      * @throws IllegalArgumentException
+     * 
      */
     protected Node<T> validate(Position<T> position) throws IllegalArgumentException {
         if (!(position instanceof Node)) {
